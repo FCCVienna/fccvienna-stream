@@ -5,9 +5,11 @@
       Streaming link will be made available here shortly before meetup start:
     </p>
     <div v-if="live">
-      <a href="https://www.youtube.com/watch?v=iZBZ7xyAF9U" target="_blank" rel="noopener noreferrer">YouTube Live Stream</a>
+      <a href="https://www.youtube.com/watch?v=WtiayWYeGUs" target="_blank" rel="noopener noreferrer">YouTube Live Stream</a>
       <br />
       <a href="https://www.twitch.tv/robchew" target="_blank" rel="noopener noreferrer">Twitch Stream</a>
+      <br />
+      <a href="https://www.facebook.com/groups/free.code.camp.vienna.austria/permalink/1806493096180305/" target="_blank" rel="noopener noreferrer">Facebook Group Live Event</a>
     </div>
     <div v-else>. . .</div>
   </div>
@@ -18,7 +20,7 @@ export default {
   name: 'StreamInfo',
   data() {
     return {
-      live: false
+      live: true
     }
   }
 }
