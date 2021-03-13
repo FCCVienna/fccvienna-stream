@@ -20,7 +20,7 @@ export default {
   name: 'StreamInfo',
   data() {
     return {
-      live: true
+      live: false
     }
   }
 }
